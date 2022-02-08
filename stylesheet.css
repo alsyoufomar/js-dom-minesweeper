@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 4em;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 100vh;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  /* gap: 0.1em; */
+}
+
+.raw {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 0.1em;
+}
+
+div {
+  width: 4em;
+  height: 4em;
+  display: inline-block;
+  background-color: gray;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+}
+
+.mine {
+  background-color: red;
+}
+
+.pass {
+  background-color: green;
+}
+
+h1 {
+  font-size: 5em;
+  display: inline;
+}
