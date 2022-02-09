@@ -4,31 +4,30 @@
 
 body {
   margin: 0;
-  padding: 0 4em;
+  padding: 0 20em;
   display: flex;
   justify-content: center;
-  justify-items: center;
   height: 100vh;
-  align-items: center;
   flex-wrap: wrap;
   background-color: whitesmoke;
-  /* gap: 0.1em; */
+  align-content: center;
+  gap: 0.1em;
 }
 
 .raw {
   display: flex;
   justify-content: space-between;
-
+  height: 2em;
   gap: 0.1em;
 }
 
 div {
-  width: 4em;
-  height: 4em;
-  display: inline-block;
+  width: 2em;
+  height: 2em;
+  display: flex;
   background-color: gray;
-  /* border: 1px solid black; */
   border-radius: 5px;
+  position: relative;
 }
 
 .mine {
@@ -40,6 +39,10 @@ div {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 2em;
   display: inline;
+  z-index: 99;
+  position: absolute;
+  bottom: -1em;
+  left: 0.2em;
 }
